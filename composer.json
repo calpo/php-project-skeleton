@@ -1,0 +1,23 @@
+{
+    "name": "calpo/__GITHUB_REPO_PROJECT_NAME__",
+    "bin": ["bin/flflplainize"],
+    "description": "説明文",
+    "keywords": ["キーワード", "キーワード"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "calpo",
+            "email": "calpo22@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+	"autoload": {
+		"psr-4": {
+			"__TOP_LEVEL_NAMESPACE__\\": "src/"
+		}
+	}
+}
