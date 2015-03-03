@@ -12,5 +12,13 @@ then
 	exit 1
 fi
 
+echo "replacing project name string ..."
 sed -i -e "s/__GITHUB_REPO_PROJECT_NAME__/$PROJECT_NAME/g" ./composer.json
+
+echo "replacing namespace string ..."
 sed -i -e "s/__TOP_LEVEL_NAMESPACE__/$NAMESPACE/g" ./composer.json ./tests/bootstrap.php
+
+echo "deleting file"
+rm ./composer.json-e
+rm ./tests/bootstrap.php-e
+rm $0
