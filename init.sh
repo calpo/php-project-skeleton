@@ -21,4 +21,5 @@ sed -i -e "s/__TOP_LEVEL_NAMESPACE__/$NAMESPACE/g" ./composer.json ./tests/boots
 echo "deleting file"
 rm ./composer.json-e
 rm ./tests/bootstrap.php-e
+rm ./README.md
 rm $0
