@@ -1,18 +1,17 @@
 いつものPHPプロジェクトスケルトン
 =======
-スケルトンを取得して init.sh を実行するとディレクトリ内のファイルが書き換わる。
-このとき init.sh や README.md など不要なファイルが削除される。
+bin/build-php-project-skelton を実行すると現在のディレクトリに新規のPHPプロジェクトディレクトリが生成される。
 
 
 使い方
 ----------
 Usage:
-./init.sh GitHubリポジトリ名 トップレベルネームスペース
+ $ php-project-skeleton/bin/build-php-project-skelton GitHubリポジトリ名 トップレベルネームスペース
 
-GitHubリポジトリ名: composerのパッケージ名に
+GitHubリポジトリ名: composerのパッケージ名、ディレクトリ名に
 トップレベルネームスペース: オートローダーの設定に
 
 例
 -----------------
 ex)
-./init.sh hoge-fuga HogeFuga
+ $ php-project-skeleton/bin/build-php-project-skelton hoge-fuga HogeFuga

@@ -1,6 +1,6 @@
 {
     "name": "calpo/__GITHUB_REPO_PROJECT_NAME__",
-    "bin": ["bin/flflplainize"],
+    "bin": [""],
     "description": "説明文",
     "keywords": ["キーワード", "キーワード"],
     "type": "library",
